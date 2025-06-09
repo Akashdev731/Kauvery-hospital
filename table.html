@@ -14,6 +14,59 @@
             width: 90%;
             background-color: #fff !important;
         }
+
+        .box-title {
+            font-size: 20px !important;
+        }
+
+        .about-box-title {
+            font-size: 24px !important;
+        }
+
+        .box-img {
+            border: 1px solid #dfdfdf;
+        }
+
+        .sec-titles {
+            font-size: 48px !important;
+        }
+
+        /* .hero-title{
+            font-size: 68px !important;
+          
+        } */
+
+        .form-top{
+            margin-top: -750px !important;
+        }
+
+        .hero-1 .th-hero-bg:before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: #dfdfdf93 !important;
+            /* background: -webkit-linear-gradient(bottom, rgba(26, 33, 89, 0.905), rgba(26, 33, 89, 0.8));
+    background: linear-gradient(0deg, rgba(239, 162, 171, 0.871), rgba(26, 33, 89, 0.8)); */
+        }
+
+        @media screen and (max-width:500px) {
+            .hero-style1 .hero-title {
+                color: var(--white-color);
+                margin-bottom: 0px !important;
+                text-align: left;
+            }
+
+            .hero-style1 {
+                padding: 200px 0px 0px 0px !important;
+            }
+            .appointment-area-wrapper{
+                margin-top: 700px !important;
+            }
+             .form-top{
+            margin-top: 0px !important;
+        }
+
+        }
     </style>
 
     <!-- Mobile Specific Metas -->
@@ -432,138 +485,185 @@
 
     <!-- Advanced  Orthopaedic Surgery Near You—Book Now -->
     <div class=" th-hero-wrapper hero-1" id="hero">
-        <div class="swiper th-slider" data-slider-options='{"effect":"fade"}'>
-            
-          
 
-            <div class="swiper-wrapper">
-               
-               
-                <div class="swiper-slide">
-                    <div class="hero-inner">
-                        <div class="th-hero-bg" data-bg-src="assets/img/new-imgs/KRR-Lobby.jpg">
-                        </div>
-                        <div class="container">
-                            <div class="row align-items-end">
-                                <div class="col-xl-6">
+        <div class="hero-inner">
+            <div class="th-hero-bg" data-bg-src="assets/img/new-imgs/KRR-Lobby.jpg">
+            </div>
+            <div class="container ">
+                <div class="row align-items-end">
+
+                    <div class="col-lg-6 z-index-5">
+                        <div class="swiper th-slider" data-slider-options='{"effect":"fade"}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
                                     <div class="hero-style1">
-                                     
-                                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Kauvery
-                                            Hospital Radial Road <span class="text-theme">Trusted Knee</span> –
-                                            Replacement Centre
+
+                                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Precision
+                                            Joint Replacement with Cutting-Edge Technology and Personalized Care
 
 
                                         </h1>
                                         <div class="btn-group justify-content-xl-start justify-content-center"
                                             data-ani="slideinup" data-ani-delay="0.8s">
-                                            <p>	&nbsp;</p>
-                                          
+                                            <p> &nbsp;</p>
+
 
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-6">
+                                <div class="swiper-slide">
+                                    <div class="hero-style1">
 
-                                    <div class="appointment-area-wrapper" style="background-color: #fff !important; z-index: 1000;">
-                                        <form action="" method="POST" name="appointment-form"
-                                            class="appointment-form  fadeInUp ">
+                                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Advanced Knee,
+                                            Hip & Shoulder Replacements by Trusted Orthopaedic Surgeons
 
 
-                                            <div class="title-area mb-40">
-                                                <span class=" text-white fs-3 fw-bold">Book Consultation</span>
-                                               
-                                                </h2>
-                                            </div>
-                                            <div class="row">
-                                          
-                                                <div class="form-group col-md-12">
-                                                    <input type="text" class="form-control" name="Name" id="full_name"
-                                                        placeholder="Patient name*" required>
-                                                    <i class="fal fa-user"></i>
-                                                </div>
+                                        </h1>
+                                        <div class="btn-group justify-content-xl-start justify-content-center"
+                                            data-ani="slideinup" data-ani-delay="0.8s">
+                                            <p> &nbsp;</p>
 
-                                             
-                                                <div class="form-group col-md-12">
-                                                    <input type="email" class="form-control" name="Email" id="email"
-                                                        placeholder="Email address*" required>
-                                                    <i class="fal fa-envelope"></i>
-                                                </div>
 
-                                        
-                                                <div class="form-group col-md-12">
-                                                    <input type="tel" class="form-control" name="Phone" id="phone"
-                                                        placeholder="Phone Number*" pattern="[0-9]{10}" maxlength="10"
-                                                        inputmode="numeric" required
-                                                        oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10);">
-                                                    <i class="fal fa-phone"></i>
-                                                </div>
-                                                   <div class="form-group col-md-12">
-            <select class="form-control" name="Doctor" id="doctor" required>
-                <option value="" disabled selected>Choose a Doctor</option>
-                <option value="Dr. Anjali Sharma">Dr. Balamurugan J</option>
-                <option value="Dr. Rajeev Menon">Dr. Manikandan Veluswami</option>
-                <option value="Dr. Priya Verma">Dr. Nandakumar Natarajan</option>
-
-            </select>
-            <i class="fal fa-user-md"></i>
-        </div>
-
-                                                <div class="form-group col-12">
-                                                    <textarea name="Message" id="message" cols="30" rows="3"
-                                                        class="form-control"
-                                                        placeholder="Appointment note (optional)"></textarea>
-                                                    <i class="fal fa-comment"></i>
-                                                </div>
-
-                                               
-                                                <div class="btn-group col-12">
-                                                    <button type="submit" name="submitContact" id="submitContact"
-                                                        class="th-btn style-radius ">
-                                                        Book Consultation
-                                                        <i class="fa-light fa-arrow-right-long ms-2"></i>
-                                                    </button>
-
-                                                    <div class="call-info">
-                                                   
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                      
-                                            <p class="form-messages mb-0 mt-3"></p>
-                                        </form>
-
-                                        <div class="p-4 p-md-0" id="thankYouModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; 
-                        background:rgba(0,0,0,0.5); z-index:9999; justify-content:center; align-items:center;">
-                                            <div
-                                                style="background:#fff; padding:30px; border-radius:10px; text-align:center; max-width:400px; margin:auto;">
-                                                <img src="assets/img/new-imgs/logo.png" alt="Logo"
-                                                    style="width:180px; margin-bottom:20px;">
-                                                <h3 style="color:#962067; font-size: 42px;">Thank You!</h3>
-                                                <p>Your appointment has been booked successfully.</p>
-                                                <button onclick="closeThankYouModal()"
-                                                    style="margin-top:15px; padding:10px 20px; background-color:#ee2d67; color:#fff; border:none; border-radius:5px; cursor:pointer;">
-                                                    Close
-                                                </button>
-                                            </div>
                                         </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="hero-style1">
+
+                                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
+                                            Treatment designed to restore your mobility and enhance your quality of
+                                            life.
 
 
+
+                                        </h1>
+                                        <div class="btn-group justify-content-xl-start justify-content-center"
+                                            data-ani="slideinup" data-ani-delay="0.8s">
+                                            <p> &nbsp;</p>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="col-lg-6 ">
+
+                        <div class="appointment-area-wrapper form-top"
+                            style="background-color: #fff !important; z-index: 1000; " >
+                            <form action="" method="POST" name="appointment-form" class="appointment-form  fadeInUp "
+                                id="bookmyap">
+
+
+                                <div class="title-area mb-40">
+                                    <span class=" text-white fs-2 fw-bold">Book Consultation</span>
+
+                                    </h2>
+                                </div>
+                                <div class="row">
+
+                                    <div class="form-group col-md-12">
+                                        <input type="text" class="form-control" name="Name" id="full_name"
+                                            placeholder="Patient name*" required>
+                                        <i class="fal fa-user"></i>
                                     </div>
 
+
+                                   
+
+                                    <div class="form-group col-md-12">
+                                        <input type="tel" class="form-control" name="Phone" id="phone"
+                                            placeholder="Phone Number*" pattern="[0-9]{10}" maxlength="10"
+                                            inputmode="numeric" required
+                                            oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10);">
+                                        <i class="fal fa-phone"></i>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <select class="form-control" name="Doctor" id="doctor" required>
+                                            <option value="" disabled selected>Choose a Doctor</option>
+                                            <option value="Dr. Anjali Sharma">Dr. Balamurugan J</option>
+                                            <option value="Dr. Rajeev Menon">Dr. Manikandan Veluswami</option>
+                                            <option value="Dr. Priya Verma">Dr. Nandakumar Natarajan</option>
+
+                                        </select>
+                                        <i class="fal fa-user-md"></i>
+                                    </div>
+
+                                    <div class="form-group col-12">
+                                        <textarea name="Message" id="message" cols="30" rows="3" class="form-control"
+                                            placeholder="Appointment note (optional)"></textarea>
+                                        <i class="fal fa-comment"></i>
+                                    </div>
+
+
+                                    <div class="btn-group col-12">
+                                        <button type="submit" name="submitContact" id="submitContact"
+                                            class="th-btn style-radius ">
+                                            Book Consultation
+                                            <i class="fa-light fa-arrow-right-long ms-2"></i>
+                                        </button>
+
+                                        <div class="call-info">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <p class="form-messages mb-0 mt-3"></p>
+                            </form>
+
+                            <div class="p-4 p-md-0" id="thankYouModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; 
+                        background:rgba(0,0,0,0.5); z-index:9999; justify-content:center; align-items:center;">
+                                <div
+                                    style="background:#fff; padding:30px; border-radius:10px; text-align:center; max-width:400px; margin:auto;">
+                                    <img src="assets/img/new-imgs/logo.png" alt="Logo"
+                                        style="width:180px; margin-bottom:20px;">
+                                    <h3 style="color:#962067; font-size: 42px;">Thank You!</h3>
+                                    <p>Your appointment has been booked successfully.</p>
+                                    <button onclick="closeThankYouModal()"
+                                        style="margin-top:15px; padding:10px 20px; background-color:#ee2d67; color:#fff; border:none; border-radius:5px; cursor:pointer;">
+                                        Close
+                                    </button>
                                 </div>
                             </div>
+
+
                         </div>
+
                     </div>
-                </div>
+              
                 
-             
+                </div>
+            </div>
+        </div>
+        <div class="swiper th-slider" data-slider-options='{"effect":"fade"}'>
+
+
+
+            <div class="swiper-wrapper">
+
+
+                <div class="swiper-slide">
+
+                </div>
+
+
 
 
             </div>
-            <div class="slider-controller">
-                <div class="slider-pagination"></div>
-            </div>
+
         </div>
         <div class="scroll-down">
             <a href="#about-sec" class="hero-scroll-wrap"><span></span></a>
@@ -575,144 +675,25 @@
             <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
             <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
         </div>
+
+
     </div>
-    
-
-     <!-- <section class="team-sec space overflow-hidden">
-        <div class="container z-index-common">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-xxl-5">
-                    <div class="title-area text-center pe-xl-5 ps-xl-5">
-                        <span class="sub-title text-anime-style-2"> </span>
-                        <h2 class="sec-title text-anime-style-3">Our expert team<span class="fw-normal"></span> </h2>
-                            <p>With a strong emphasis on patient-centric care and precision techniques, we help you regain movement and confidence. Know your knee replacement options before making a decision.</p>
-                    </div>
-                </div>
-            </div>
-      
-<div class="container  d-flex justify-content-center">
-    <div class="swiper mySwiper" style="width: 60%;">
-        <div class="swiper-wrapper">
-        
-            <div class="swiper-slide">
-                <div class="card p-3 rounded">
-                    <div class="d-flex flex-md-row flex-column justify-content-around align-items-center">
-                   
-                        <div class="ps-4">
-                            <img src="./assets/img/new-imgs/DR/Dr Balamurgan .png" alt="Dr. Balamurugan" width="250px" class="img-fluid mb-2">
-                            <h5 class="mt-2"><a href="doctor-details.html">Dr. Balamurugan J</a></h5>
-                            <span class="d-block " style="color: #ee2d67; " >Gynecology Specialist</span>
-                            <p class="mt-2 
-                             small">
-                                With a strong emphasis on patient-centric care and precision techniques, we help you regain movement and confidence. Know your knee replacement options before making a decision.
-                            </p>
-                        </div>
-                  
-                        <div class="position-relative  mt-md-0 ">
-                            <img src="./assets/img/new-imgs/thumbnail.jpg" alt="Video Thumbnail" width="500px" class="img-fluid rounded">
-                            <a href="#" class="play-btn popup-video position-absolute top-50 start-50 translate-middle">
-                                <i class="fa-solid fa-play fa-2x text-white  rounded-circle"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-             <div class="swiper-slide">
-                <div class="card p-3 rounded">
-                    <div class="d-flex flex-md-row flex-column justify-content-around align-items-center">
-                
-                        <div class="ps-4">
-                            <img src="./assets/img/new-imgs/DR/Dr Balamurgan .png" alt="Dr. Balamurugan" width="250px" class="img-fluid mb-2">
-                            <h5 class="mt-2"><a href="doctor-details.html">Dr. Balamurugan J</a></h5>
-                            <span class="d-block " style="color: #ee2d67; " >Gynecology Specialist</span>
-                            <p class="mt-2 
-                             small">
-                                With a strong emphasis on patient-centric care and precision techniques, we help you regain movement and confidence. Know your knee replacement options before making a decision.
-                            </p>
-                        </div>
-                
-                        <div class="position-relative  mt-md-0 ">
-                            <img src="./assets/img/new-imgs/thumbnail.jpg" alt="Video Thumbnail" width="500px" class="img-fluid rounded">
-                            <a href="#" class="play-btn popup-video position-absolute top-50 start-50 translate-middle">
-                                <i class="fa-solid fa-play fa-2x text-white  rounded-circle"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-             <div class="swiper-slide">
-                <div class="card p-3 rounded">
-                    <div class="d-flex flex-md-row flex-column justify-content-around align-items-center">
-                  
-                        <div class="ps-4">
-                            <img src="./assets/img/new-imgs/DR/Dr Balamurgan .png" alt="Dr. Balamurugan" width="250px" class="img-fluid mb-2">
-                            <h5 class="mt-2"><a href="doctor-details.html">Dr. Balamurugan J</a></h5>
-                            <span class="d-block " style="color: #ee2d67; "  >Gynecology Specialist</span>
-                            <p class="mt-2 
-                             small">
-                                With a strong emphasis on patient-centric care and precision techniques, we help you regain movement and confidence. Know your knee replacement options before making a decision.
-                            </p>
-                        </div>
-               
-                        <div class="position-relative  mt-md-0 ">
-                            <img src="./assets/img/new-imgs/thumbnail.jpg" alt="Video Thumbnail" width="500px" class="img-fluid rounded">
-                            <a href="#" class="play-btn popup-video position-absolute top-50 start-50 translate-middle">
-                                <i class="fa-solid fa-play fa-2x text-white  rounded-circle"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-        </div>
-
-   
-        <div class="swip-own fa-regular  swiper-button-next"></div>
-        <div class="swiper-button-prev swip-own fa-regular   "></div>
-    </div>
-</div>
-
-     
-            </div>
-        </div>
-    </section>
-
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 
 
-<style>
-    .swip-own{
-        color: #ee2d67;
-    }
-</style>
 
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
-<script>
-    const swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        loop: true,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-    });
-</script> -->
-
-<!-- Team Area  
+    <!-- Team Area  
 ==============================-->
     <section class="team-sec  overflow-hidden" style="margin-top: 100px;">
         <div class="container z-index-common">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-xxl-8">
                     <div class="title-area text-center pe-xl-5 ps-xl-5">
-                       
-                       <h2 class="sec-title text-anime-style-3">Our expert team<span class="fw-normal"></span> </h2>
-                             <p class="fs-18 wow fadeInUp">With a strong emphasis on patient-centric care and precision techniques, we help you regain movement and confidence. Know your knee replacement options before making a decision.</p>
+
+                        <h2 class="sec-title text-anime-style-3">Our expert team<span class="fw-normal"></span> </h2>
+                        <p class="fs-18 wow fadeInUp">With a strong emphasis on patient-centric care and precision
+                            techniques, we help you regain movement and confidence. Know your knee replacement options
+                            before making a decision.</p>
                     </div>
                 </div>
             </div>
@@ -721,13 +702,17 @@
                 <div class="col-md-6 col-xl-3">
                     <div class="th-team team-card">
                         <div class="box-img">
-                            <img src="./assets/img/new-imgs/DR/Dr Balamurgan .png" alt="Team">
+                            <img src="./assets/img/new-imgs/DR/Dr Balamurgan .jpeg" alt="Team">
                         </div>
                         <div class="box-content">
                             <div>
-                                <h3 class="box-title"><a href="doctor-details.html">Dr. Balamurugan J</a></h3>
+                                <h4 class="box-title"><a href="doctor-details.html">Dr. Balamurugan J</a></h4>
                                 <span class="team-desig">Senior Consultant, Orthopaedics</span>
-                                <p class="fs-12 wow fadeInUp mt-3">Dr Balamurugan J is a  orthopaedic surgeon with over 18 years of experience, 14 years as specialist in orthopaedic practice. He has expertise in treating  orthopaedic conditions including joint replacement of  sports medicine including knee and shoulder arthroscopy, paediatric orthopaedics, lower-limb deformity corrections and fracture care.</p>
+                                <p class="fs-12 wow fadeInUp mt-3">Dr Balamurugan J is a orthopaedic surgeon with over
+                                    18 years of experience, 14 years as specialist in orthopaedic practice. He has
+                                    expertise in treating orthopaedic conditions including joint replacement of sports
+                                    medicine including knee and shoulder arthroscopy, paediatric orthopaedics,
+                                    lower-limb deformity corrections and fracture care.</p>
                             </div>
                             <!-- <div class="team-social">
                                 <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
@@ -742,17 +727,21 @@
 
                     </div>
                 </div>
-                       <!-- Single Item -->
+                <!-- Single Item -->
                 <div class="col-md-6 col-xl-3">
                     <div class="th-team team-card">
                         <div class="box-img">
-                            <img src="./assets/img/new-imgs/DR/Dr Manikandan Veluswami.png " alt="Team">
+                            <img src="./assets/img/new-imgs/DR/Dr Manikandan Veluswami.jpeg " alt="Team">
                         </div>
                         <div class="box-content">
                             <div>
-                                <h3 class="box-title"><a href="doctor-details.html">Dr. Manikandan Veluswami</a></h3>
+                                <h4 class="box-title"><a href="doctor-details.html">Dr. Manikandan Veluswami</a></h4>
                                 <span class="team-desig">Senior Consultant Orthopaedic Surgeon</span>
-                                <p class="fs-12 wow fadeInUp mt-3">Dr. Manikandan Veluswami is a highly skilled orthopaedic surgeon with over 24 years of experience in complex fracture management,  joint replacement, and geriatric orthopaedics. Known for his patient-centric approach, he has helped countless individuals regain mobility and lead pain-free lives.</p>
+                                <p class="fs-12 wow fadeInUp mt-3">Dr. Manikandan Veluswami is a highly skilled
+                                    orthopaedic surgeon with over 24 years of experience in complex fracture management,
+                                    joint replacement, and geriatric orthopaedics. Known for his patient-centric
+                                    approach, he has helped countless individuals regain mobility and lead pain-free
+                                    lives.</p>
                             </div>
                             <!-- <div class="team-social">
                                 <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
@@ -767,17 +756,20 @@
 
                     </div>
                 </div>
-                       <!-- Single Item -->
+                <!-- Single Item -->
                 <div class="col-md-6 col-xl-3">
                     <div class="th-team team-card">
-                        <div class="box-img">
-                            <img src="./assets/img/new-imgs/DR/Nandha kumar.png" alt="Team">
+                        <div class="box-img  ">
+                            <img src="./assets/img/new-imgs/DR/Nandha kumar.jpeg" alt="Team">
                         </div>
                         <div class="box-content">
                             <div>
-                                <h3 class="box-title"><a href="doctor-details.html">Dr. Nandakumar Natarajan</a></h3>
+                                <h4 class="box-title"><a href="doctor-details.html">Dr. Nandakumar Natarajan</a></h4>
                                 <span class="team-desig">Senior Consultant, Orthopaedics</span>
-                                <p class="fs-12 wow fadeInUp mt-3">Dr Nandakumar Natarajan is a reputed orthopaedic joint replacement & arthroscopic surgeon in Chennai. He has performed over 1200 surgeries which includes Trauma, Joint replacement & Arthroscopic surgeries. He has also performed several complex trauma surgeries.</p>
+                                <p class="fs-12 wow fadeInUp mt-3">Dr Nandakumar Natarajan is a reputed orthopaedic
+                                    joint replacement & arthroscopic surgeon in Chennai. He has performed over 1200
+                                    surgeries which includes Trauma, Joint replacement & Arthroscopic surgeries. He has
+                                    also performed several complex trauma surgeries.</p>
                             </div>
                             <!-- <div class="team-social">
                                 <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
@@ -793,9 +785,9 @@
                     </div>
                 </div>
 
-               
 
-             
+
+
             </div>
         </div>
     </section><!--==============================-->
@@ -805,36 +797,40 @@
             <div class="row gy-4 justify-content-center">
                 <div class="col-md-6 col-xl-4 feature-card_wrapp wow fadeInLeft" data-wow-delay=".2s">
                     <div class="feature-card th-ani">
-                        <h3 class="box-title text-anime-style-2 ">Advanced Joint Replacement
-                        </h3>
-                        <p class="box-text text-dark">Kauvery Hospital, Radial Road offers comprehensive solutions for knee, hip, shoulder, and elbow joint pain and mobility issues. Our experienced surgeons deliver expert care to help you move freely again.
+                        <h2 class="about-box-title text-anime-style-2 ">Advanced Joint Replacement
+                        </h2>
+                        <p class="box-text text-dark">Kauvery Hospital, Radial Road offers comprehensive solutions for
+                            knee, hip, shoulder, and elbow joint pain and mobility issues. Our experienced surgeons
+                            deliver expert care to help you move freely again.
                         </p>
-                        <!-- <a href="tel:044 4000 6000" class="th-btn black-border">Emergeny Call <i
-                                class="fa-regular fa-arrow-right ms-2"></i></a> -->
+
                     </div>
                 </div>
 
                 <div class="col-md-6 col-xl-4 feature-card_wrapp wow fadeInUp" data-wow-delay=".4s">
                     <div class="feature-card th-ani">
-                        <h3 class="box-title text-anime-style-2">Personalised Joint Assessment
-                        </h3>
-                        <p class="box-text text-dark">We conduct a detailed physical exam, imaging, and review of your mobility history to recommend the best treatment — whether total or partial joint replacement.
+                        <h2 class="about-box-title text-anime-style-2">Personalised Joint Assessment
+                        </h2>
+                        <p class="box-text text-dark">We conduct a detailed physical exam, imaging, and review of your
+                            mobility history to recommend the best treatment — whether total or partial joint
+                            replacement.
 
-                        </p><p>	&nbsp;</p>
-                    
-                        <!-- <a href="#about-sec" class="th-btn black-border">More About Us <i
-                                class="fa-regular fa-arrow-right ms-2"></i></a> -->
+                        </p>
+                        <!-- <p>	&nbsp;</p> -->
+
+
                     </div>
                 </div>
 
                 <div class="col-md-6 col-xl-4 feature-card_wrapp wow fadeInRight" data-wow-delay=".6s">
                     <div class="feature-card th-ani">
-                        <h3 class="box-title text-anime-style-2 ">Proven Surgical Excellence
-                        </h3>
-                        <p class="box-text text-dark">Our joint replacement surgeries are designed to restore movement, reduce pain, and improve quality of life — across knee, hip, shoulder, and elbow procedures.
-                        </p><p>	&nbsp;</p>
-                        <!-- <a href="#bookmyap" class="th-btn black-border">Make Appointment <i
-                                class="fa-regular fa-arrow-right ms-2"></i></a> -->
+                        <h2 class="about-box-title text-anime-style-2 ">Proven Surgical Excellence
+                        </h2>
+                        <p class="box-text text-dark">Our joint replacement surgeries are designed to restore movement,
+                            reduce pain, and improve quality of life — across knee, hip, shoulder, and elbow procedures.
+                        </p>
+                        <!-- <p>	&nbsp;</p> -->
+
                     </div>
                 </div>
 
@@ -846,83 +842,80 @@
     <div class="container px-1 px-md-5 about-area overflow-hidden space-bottom" id="about-sec">
         <div class="container">
             <div class="row gy-4">
-                <div class="col-lg-10  mb-xl-0">
+                <div class="col-lg-6  mb-xl-0">
                     <div class="title-area">
                         <span class="sub-title text-anime-style-2">About us</span>
-                        <h2 class="sec-title text-anime-style-3"><span class="fw-normal">Expert Doctors</span>, Seamless
+                        <h2 class="sec-titles text-anime-style-3"><span class="fw-normal"></span>Expert Doctors,
+                            Seamless
                             Appointments, Quality Care</h2>
                     </div>
+
                     <div class="img-box1">
                         <div class="about-wrapper">
+
                             <div class="">
-                                <!-- <img src="assets/img/new-imgs/about-dr.jpg" alt="About"> -->
-                                     <img src="assets/img/new-imgs/about-second-img.jpg" class="rounded" alt="About" width="1500px">
-                                <!-- <a href="" class="play-btn popup-video">
-                                    <i class="fa-solid fa-play"></i></a> -->
-                            </div>
-                            <div class="">
-                                <p class="fs-18 mb-30 wow fadeInUp" data-wow-delay=".1s">Kauvery Hospital, Radial Road, Chennai, is a trusted destination for total and partial knee replacement surgery. We focus on long-term comfort, mobility, and faster recovery.
+                                <p class="fs-20  wow fadeInUp" data-wow-delay=".1s">Kauvery Hospital, Radial Road,
+                                    Chennai, is a trusted destination for total and partial knee replacement surgery. We
+                                    focus on long-term comfort, mobility, and faster recovery.
                                     <br> <br>
-                                    Our expert team—Dr. Balamurugan J, Dr. Nandakumar Natarajan, and Dr. Manikandan Veluswami—brings years of surgical experience and proven outcomes in joint replacement procedures. With a strong emphasis on patient-centric care and precision techniques, we help you regain movement and confidence. Know your knee replacement options before making a decision.
+                                    Our expert team—Dr. Balamurugan J, Dr. Nandakumar Natarajan, and Dr. Manikandan
+                                    Veluswami—brings years of surgical experience and proven outcomes in joint
+                                    replacement procedures. With a strong emphasis on patient-centric care and precision
+                                    techniques, we help you regain movement and confidence. Know your knee replacement
+                                    options before making a decision.
 
                                 </p>
-                                <!-- <div class="checklist mb-50">
-                                    <ul>
-                                        <li class="wow fadeInUp" data-wow-delay=".1s">Specialized Care for a Healthier
-                                            You</li>
-                                        <li class="wow fadeInUp" data-wow-delay=".3s">Expert Guidance for Optimal
-                                            Wellness</li>
-                                        <li class="wow fadeInUp" data-wow-delay=".5s">Personalized Treatment Plans for
-                                            Every Patient</li>
-                                        <li class="wow fadeInUp" data-wow-delay=".7s">Cutting-Edge Technology for
-                                            Superior Healthcare</li>
-                                        <li class="wow fadeInUp" data-wow-delay=".9s">Innovative Solutions for
-                                            Enhanced Patient Outcomes</li>
-                                    </ul>
-                                </div> -->
+
                                 <div class="btn-group mt-40 wow fadeInUp" data-wow-delay=".4s">
                                     <a href="#bookmyap" class="th-btn">Book Consultation
                                         <i class="fa-light fa-arrow-right-long ms-2"></i></a>
 
                                 </div>
+
+
+
                                 <div class="about-wrapp">
-                            <div class="discount-wrapp">
+                                    <!-- <div class="discount-wrapp">
                                 <div class="logo">
                                     <img src="assets/img/about-icon.jpeg" alt="" width="100px">
                                 </div>
                                 <div class="discount-tag">
                                     <span class="discount-anime"> Kauvery Hospital * Radial Road * Chennai </span>
                                 </div>
-                            </div>
-                        </div>
+                            </div> -->
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
-                <div class="col-lg-4 ">
-                    <div class="img-box2">
-                        <div class="img-box-wrapp">
-                            <div class="img1 reveal">
-                                <!-- <img src="assets\img\kauvery-hospital\Screenshot 2025-05-30 101927.png" alt="About"
-                                    class="img-fluid w-100 rounded shadow"> -->
-                                        <!-- <img src="assets/img/new-imgs/about-second-img.jpg" alt="About"
-                                    class="img-fluid w-100 rounded shadow" style="object-fit: center; height: 400px;" > -->
+                <div class="col-lg-6 ">
+                    <div class="img-box1">
+                        <div class="about-wrapper">
+                            <div class="">
+
+                                <img src="assets/img/new-imgs/about-second-img.jpg" class="rounded" alt="About"
+                                    width="1500px">
+
                             </div>
-                            <!-- <div class="img2 reveal">
-                                <img src="assets\img\kauvery-hospital\Kauvery.jpg" alt="About"
-                                    class="img-fluid w-100 rounded shadow">
-                            </div> -->
+                            <div class="">
+
+
+
+
+                                <div class="about-wrapp">
+                                    <div class="discount-wrapp">
+                                        <div class="logo">
+                                            <img src="assets/img/about-icon.jpeg" alt="" width="100px">
+                                        </div>
+                                        <div class="discount-tag">
+                                            <span class="discount-anime"> Kauvery Hospital * Radial Road * Chennai
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <!-- <div class="about-wrapp">
-                            <div class="discount-wrapp">
-                                <div class="logo">
-                                    <img src="assets/img/about-icon.jpeg" alt="">
-                                </div>
-                                <div class="discount-tag">
-                                    <span class="discount-anime"> Kauvery Hospital * Radial Road * Chennai </span>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -934,13 +927,13 @@
     <!-- We have world-class radiology team. -->
     <section class="container position-relative overflow-hidden space"
         data-bg-src="assets/img/new-imgs/service_bg_1.jpg" id="service-sec">
-        
+
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-5">
                     <div class="title-area text-center">
                         <span class="sub-title text-anime-style-2">Kauvery Hospital</span>
-                        <!-- <h2 class="sec-title text-anime-style-3">Our Amazing <span class="fw-normal">Process</span> -->
+
                         </h2>
                         <p class="fs-18 wow fadeInUp">We have world-class radiology team. We are equipped with the best
                             medical services. We ensure
@@ -950,7 +943,7 @@
             </div>
             <div class="container service-list-area">
                 <div class="row justify-content-center gap-3 ">
-                    <div class="col-4 bg-white p-5 rounded">
+                    <div class="col-lg-4 bg-white p-5 rounded">
                         <div class=" wow fadeInUp  " data-wow-delay=".2s">
                             <div class="service-content">
                                 <div class="box-wrapp">
@@ -976,8 +969,8 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col-4 bg-white p-5 rounded">
+
+                    <div class="col-lg-4 bg-white p-5 rounded">
                         <div class="d-flex flex-column wow fadeInUp" data-wow-delay=".3s">
                             <div class="service-content">
                                 <div class="box-wrapp">
@@ -1006,7 +999,7 @@
                     </div>
 
 
-                    <div class="col-4 bg-white p-5 rounded">
+                    <div class="col-lg-4 bg-white p-5 rounded">
                         <div class="d-flex flex-column wow fadeInUp" data-wow-delay=".5s">
                             <div class="service-content">
                                 <div class="box-wrapp">
@@ -1032,7 +1025,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 bg-white p-5 rounded">
+                    <div class="col-lg-4 bg-white p-5 rounded">
                         <div class="d-flex flex-column wow fadeInUp" data-wow-delay=".6s">
                             <div class="service-content">
                                 <div class="box-wrapp">
@@ -1043,274 +1036,39 @@
                                         </a></h3>
                                     <p class="box-text ">We help patients understand knee replacement recovery time with
                                         customised physiotherapy and consistent medical supervision. From the first step
-                                        post-op to walking independently, we support every part of your recovery
-                                        journey.
+                                        post-op to walking independently.
                                     </p>
                                 </div>
                                 <div class="box-right-wrapp">
-                                    <!-- <div class="box-img global-img">
-                                        <img src="assets/img/new-imgs/service_2_2.jpg" alt="">
-                                    </div> -->
-                                    <!-- <div class="service-btn">
-                                        <a href="service.html" class="th-btn black-border">Read More <i
-                                                class="fa-regular fa-arrow-right ms-2"></i>
-                                        </a>
-                                    </div> -->
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="text-center mt-60">
-                    <a href="service.html" class="th-btn style2">Browse All <i
-                            class="fa-light fa-arrow-right-long ms-2"></i></a>
-                </div> -->
+
             </div>
         </div>
     </section>
 
-    <!--  Clinical Leader -->
-    <!-- <div class="container choose-area position-relative overflow-hidden space px-0 px-md-5">
-        <div class="container">
-            <div class="row gy-5">
-                <div class="col-lg-8 ">
-                    <div class="title-area pe-xl-5 text-lg-start text-center">
-                        <span class="sub-title sub-title2 text-anime-style-1">Kauvery Hospital </span>
-                        <h2 class="sec-title text-anime-style-3"><span class="fw-normal d-block"> Clinical Leader</span>
-                            in Arthroplasty Care </h2>
-                        <p class="fs-18 pe-xl-5 wow fadeInLeft">No overstatements. Just effective care with clear
-                            outcomes. Our team focuses on actual knee function improvement, not quick fixes. Your goals
-                            guide our surgical decisions.
-                        </p>
-                    </div>
-                    <div class="choose-item-wrap">
-                        <div class="choose-item wow fadeInUp" data-wow-delay=".3s">
-                            <div class="box-icon">
-                                <img src="assets/img/icon/choose_1_1.svg" alt="Icon">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="box-title text-dark">Realistic Recovery Timeline
-                                </h3>
-                                <p class="box-text">We’ll explain what knee replacement surgery recovery time looks like
-                                    for your age, lifestyle, and surgery type.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="choose-item wow fadeInUp" data-wow-delay=".5s">
-                            <div class="box-icon">
-                                <img src="assets/img/icon/choose_1_2.svg" alt="Icon">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="box-title text-dark">Detailed Pre-Surgery Counseling
-                                </h3>
-                                <p class="box-text">Know exactly what’s involved, from knee replacement surgery pictures
-                                    to the recovery plan.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="choose-item  wow fadeInUp" data-wow-delay=".7s">
-                            <div class="box-icon">
-                                <img src="assets/img/icon/choose_1_3.svg" alt="Icon">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="box-title text-dark">Post-Surgery Movement Plan
-                                </h3>
-                                <p class="box-text">We work with physiotherapists to plan safe progress so you return to
-                                    walking, climbing, and standing with ease.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="choose-item wow fadeInUp" data-wow-delay=".9s">
-                            <div class="box-icon">
-                                <img src="assets/img/icon/choose_1_4.svg" alt="Icon">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="box-title text-dark">Ready To Find Out If Knee Replacement Is Right For You?
-
-                                </h3>
-                                <p class="box-text">We’ll walk you through the process, from diagnosis to recovery. If
-                                    you’re considering robotic knee replacement or
-                                    partial surgery, get answers that match your health needs
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 ">
-                    <div class="choose-img-box mt-0 mt-md-5">
-                        <div class="img1 wow fadeInLeft global-img" data-wow-delay=".3s">
-                            <img src="assets/img/kauvery-hospital/Clinical Leader-6.jpg" alt="" class="img-fluid w-100">
-                        </div>
-                        <div class="img2 wow fadeInRight global-img" data-wow-delay=".6s">
-                            <img src="assets\img\kauvery-hospital\Clinical Leader-1.png" alt="" class="img-fluid w-100">
-                        </div>
-                        <div class="img3 wow fadeInUp global-img" data-wow-delay=".9s">
-                            <img src="assets/img/kauvery-hospital/istockphoto-1390886692-612x612.jpg" alt=""
-                                class="img-fluid w-100">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="shape-mockup" data-bottom="10%" data-right="25%"><img src="assets/img/shape/shape-1.png" alt=""
-                class="img-fluid w-100 ">
-        </div>
-        <div class="shape-mockup jump" data-bottom="20%" data-right="0%"><img src="assets/img/shape/element-2.png"
-                alt="" class="img-fluid w-100 "></div>
-    </div> -->
-
-    <!-- Form & Opening Housrs -->
-    <!-- <section id="bookmyap" class="container video-area overflow-hidden space "
-        data-bg-src="assets/img/new-imgs/video_bg_1.jpg">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6">
-                    <div class="appointment-area-wrapper">
-                        <form action="" method="POST" name="appointment-form" class="appointment-form  fadeInUp ">
-
-
-                            <div class="title-area mb-40">
-                                <span class="sub-title">Book an appointment</span>
-                                <h2 class="sec-title">Book an Appointment for
-                                    <span class="fw-normal">Expert Consultation</span>
-                                </h2>
-                            </div>
-                            <div class="row">
-                           
-                                
-                                <div class="form-group col-md-12">
-                                    <input type="text" class="form-control" name="Name" id="full_name"
-                                        placeholder="Patient name*" required>
-                                    <i class="fal fa-user"></i>
-                                </div>
-
-                                <div class="form-group col-md-12">
-                                    <input type="email" class="form-control" name="Email" id="email"
-                                        placeholder="Email address*" required>
-                                    <i class="fal fa-envelope"></i>
-                                </div>
-
-                                <div class="form-group col-md-12">
-                                    <input type="tel" class="form-control" name="Phone" id="phone"
-                                        placeholder="Phone Number*" pattern="[0-9]{10}" maxlength="10"
-                                        inputmode="numeric" required
-                                        oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10);">
-                                    <i class="fal fa-phone"></i>
-                                </div>
-
-                       
-                                <div class="form-group col-12">
-                                    <textarea name="Message" id="message" cols="30" rows="3" class="form-control"
-                                        placeholder="Appointment note (optional)"></textarea>
-                                    <i class="fal fa-comment"></i>
-                                </div>
-
-                               
-                                <div class="btn-group col-12">
-                                    <button type="submit" name="submitContact" id="submitContact"
-                                        class="th-btn style-radius">
-                                        Make Appointment
-                                        <i class="fa-light fa-arrow-right-long ms-2"></i>
-                                    </button>
-
-                                    <div class="call-info">
-                                        <div class="call-icon">
-                                            <a href="tel:+0012345678900"><i class="fa-solid fa-phone"></i></a>
-                                        </div>
-                                        <div class="media-body">
-                                            <span class="call-label">For emergency, Call Now</span>
-                                            <p class="call-link"><a href="tel:+0012345678900">044 4000 6000</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                       
-                            <p class="form-messages mb-0 mt-3"></p>
-                        </form>
-
-                        <div class="p-4 p-md-0" id="thankYouModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; 
-                        background:rgba(0,0,0,0.5); z-index:9999; justify-content:center; align-items:center;">
-                            <div
-                                style="background:#fff; padding:30px; border-radius:10px; text-align:center; max-width:400px; margin:auto;">
-                                <img src="assets/img/new-imgs/logo.png" alt="Logo"
-                                    style="width:180px; margin-bottom:20px;">
-                                <h3 style="color:#962067; font-size: 42px;">Thank You!</h3>
-                                <p>Your appointment has been booked successfully.</p>
-                                <button onclick="closeThankYouModal()"
-                                    style="margin-top:15px; padding:10px 20px; background-color:#ee2d67; color:#fff; border:none; border-radius:5px; cursor:pointer;">
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-                <div class="col-xl-6 py-5 py-md-0">
-                    <div class="overflow-hidden overflow-hidden rounded-4" id="faq-sec">
-                        <div class="container  ">
-                            <div class="faq-area ">
-                                <div class="row align-items-center">
-                                    <div class="col-xl-12">
-                                        <div class="opening-hour-content"
-                                            data-bg-src="assets/img/new-imgs/contact_bg_1.png"
-                                            style="border-radius: 0px;">
-                                            <div class="title-area text-center ">
-                                                <h2 class="sec-title text-white text-anime-style-3">Opening Hours</h2>
-                                                <p class="text wow fadeInUp">Most medical centers offer charity
-                                                    programs, counseling,
-                                                    and financial
-                                                    assistance for those in need.</p>
-                                            </div>
-                                            <div class="times-content">
-                                                <span class="day">Moday <span class="time">8:00AM - 5:30PM</span></span>
-                                                <span class="day">Tuesday <span class="time">8:00AM -
-                                                        5:30PM</span></span>
-                                                <span class="day">Wednesday <span class="time">8:00AM -
-                                                        5:30PM</span></span>
-                                                <span class="day">Thursday <span class="time">8:00AM -
-                                                        5:30PM</span></span>
-                                                <span class="day">Friday <span class="time">8:00AM -
-                                                        5:30PM</span></span>
-                                                <span class="day">Saturday <span class="time">8:00AM -
-                                                        5:30PM</span></span>
-
-                                            </div>
-                                            <div class="btn-group mt-60">
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <!-- Testimonials -->
     <section class="container overflow-hidden space overflow-hidden" id="testi-sec">
         <div class="container">
             <div class="row gy-24 justify-content-center">
                 <div class="col-xl-6">
-                    <div class="title-area text-start">
-                        <span class="sub-title text-anime-style-2"></span>
-                        <h2 class="sec-title text-anime-style-3"> Testimonials
-                    </div>
+
                 </div>
-                 <div class="col-xl-6">
-                    <div class="title-area text-start">
-                        <span class="sub-title text-anime-style-2"></span>
-                        <h2 class="sec-title text-anime-style-3"> FAQ's
-                    </div>
+                <div class="col-xl-6">
+
                 </div>
             </div>
             <div class="row gy-24 mb-24">
                 <div class="col-xl-6">
+                    <div class="title-area text-start">
+                        <span class="sub-title text-anime-style-2"></span>
+                        <h2 class="sec-title text-anime-style-3"> Testimonials
+                    </div>
                     <div class="slider-area wow fadeInLeft" data-wow-delay=".2s">
                         <div class="swiper th-slider testiSlide1 has-shadow" id="testiSlide1"
                             data-slider-options='{"effect":"slide","loop":true}'>
@@ -1444,170 +1202,162 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-xl-3">
-                    <div class="testi-counter wow fadeInRight" data-wow-delay=".4s"
-                        data-bg-src="assets/img/shape/pattern.png">
-                        <span class="subtitle">FACTS & NUMBERS</span>
-                        <h2 class="box-counter"><span class="counter-number">98</span>%</h2>
-                        <p class="box-text"> Recommeded Our Services</p>
-                        <div class="btn-group mt-40">
-                            <a href="about.html" class="th-btn style1">More About Us <i
-                                    class="fa-light fa-arrow-right-long ms-2"></i></a>
-                        </div>
+
+                <div class="col-xl-6">
+                    <div class="title-area text-start">
+                        <span class="sub-title text-anime-style-2"></span>
+                        <h2 class="sec-title text-anime-style-3"> FAQ's
                     </div>
-                </div> -->
-                <!-- <div class="col-xl-6">
-                    <div class="testi-ratting wow fadeInLeft" data-wow-delay=".5s">
-                        <div class="testi-img global-img">
-                            <img src="assets\img\testimonial\testimonial.jpg" alt="">
-                        </div>
-                        <div class="testi-wrapp">
-                            <div class="img"><img src="assets/img/normal/google.png" alt=""> </div>
-                            <div class="divided"></div>
-                            <div class="client-box mb-sm-0 mb-3">
-                                <div class="box-review">
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <span class=""><i class="fa-solid fa-star"></i></span>
-                                </div>
-                                <span class="ratting">4.9 (29k Reviews)</span>
-                                <div class="client-thumb-group">
-                                    <div class="thumb"><img src="assets\img\testimonial\tesitimonial-peoples (1).jpeg"
-                                            alt="avater"></div>
-                                    <div class="thumb"><img src="assets\img\testimonial\tesitimonial-peoples (1).jpg"
-                                            alt="avater"></div>
-                                    <div class="thumb"><img src="assets\img\testimonial\tesitimonial-peoples (2).jpeg"
-                                            alt="avater"></div>
-                                    <div class="thumb"><img src="assets\img\testimonial\tesitimonial-peoples (2).jpg"
-                                            alt="avater"></div>
-                                    <div class="thumb icon">+29K</div>
+
+                    <div class="accordion-area accordion" id="faqAccordion">
+
+                        <div class="accordion-card style3 active wow fadeInUp" data-wow-delay=".3s">
+                            <div class="accordion-header" id="collapse-item-7">
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-7" aria-expanded="true " aria-controls="collapse-7">1.⁠
+                                    ⁠How long will my knee/joint replacement last?
+
+                            </div>
+                            <div id="collapse-7" class="accordion-collapse collapse show"
+                                aria-labelledby="collapse-item-7" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p class="faq-text">Most modern implants last 15–20 years or more, especially with
+                                        proper care and activity modifications.
+
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div> -->
-            
-                           <div class="col-xl-6">
-                 
-                                <div class="accordion-area accordion" id="faqAccordion">
-
-                                     <div class="accordion-card style3 active wow fadeInUp" data-wow-delay=".3s">
-                                        <div class="accordion-header" id="collapse-item-7">
-                                            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7" aria-expanded="true " aria-controls="collapse-7">1.⁠ ⁠How long will my knee/joint replacement last?
-
-                                        </div>
-                                        <div id="collapse-7" class="accordion-collapse collapse show" aria-labelledby="collapse-item-7" data-bs-parent="#faqAccordion">
-                                            <div class="accordion-body">
-                                                <p class="faq-text">Most modern implants last 15–20 years or more, especially with proper care and activity modifications.
-
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
 
 
 
 
-                                    <div class="accordion-card style3  wow fadeInUp" data-wow-delay=".1s">
-                                        <div class="accordion-header" id="collapse-item-6">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">2.⁠ ⁠Will I be able to walk normally after surgery?
-</button>
-                                        </div>
-                                        <div id="collapse-6" class="accordion-collapse collapse " aria-labelledby="collapse-item-6" data-bs-parent="#faqAccordion">
-                                            <div class="accordion-body">
-                                                <p class="faq-text">Yes, most patients walk comfortably within a few weeks and return to normal activities in 6–12 weeks.
+                        <div class="accordion-card style3  wow fadeInUp" data-wow-delay=".1s">
+                            <div class="accordion-header" id="collapse-item-6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">2.⁠
+                                    ⁠Will I be able to walk normally after surgery?
+                                </button>
+                            </div>
+                            <div id="collapse-6" class="accordion-collapse collapse " aria-labelledby="collapse-item-6"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p class="faq-text">Yes, most patients walk comfortably within a few weeks and
+                                        return to normal activities in 6–12 weeks.
 
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                   
-                                    <div class="accordion-card style3  wow fadeInUp" data-wow-delay=".5s">
-                                        <div class="accordion-header" id="collapse-item-8">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8">3.⁠ ⁠Is the surgery very painful?
-                                               </button>
-                                        </div>
-                                        <div id="collapse-8" class="accordion-collapse collapse " aria-labelledby="collapse-item-8" data-bs-parent="#faqAccordion">
-                                            <div class="accordion-body">
-                                                <p class="faq-text">Pain is well-managed with modern anesthesia and medications; most patients report significant relief post-surgery.
-
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="accordion-card style3  wow fadeInUp" data-wow-delay=".7s">
-                                        <div class="accordion-header" id="collapse-item-9">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9">4.⁠ ⁠How soon can I return to work or driving?</button>
-                                        </div>
-                                        <div id="collapse-9" class="accordion-collapse collapse " aria-labelledby="collapse-item-9" data-bs-parent="#faqAccordion">
-                                            <div class="accordion-body">
-                                                <p class="faq-text">Most people return to desk jobs in 4–6 weeks and driving in 4 weeks, depending on recovery progress.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="accordion-card style3  wow fadeInUp" data-wow-delay=".8s">
-                                        <div class="accordion-header" id="collapse-item-10">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-10" aria-expanded="false" aria-controls="collapse-10">5.⁠ ⁠Will I need physiotherapy after the operation?
-                                              </button>
-                                        </div>
-                                        <div id="collapse-10" class="accordion-collapse collapse " aria-labelledby="collapse-item-10" data-bs-parent="#faqAccordion">
-                                            <div class="accordion-body">
-                                                <p class="faq-text">Yes, physiotherapy is essential for restoring strength, flexibility, and proper joint function post-surgery.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                     <div class="accordion-card style3  wow fadeInUp" data-wow-delay=".8s">
-                                        <div class="accordion-header" id="collapse-item-11">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-11" aria-expanded="false" aria-controls="collapse-10">6.⁠ ⁠Can I trek, hike, or travel after knee/joint replacement?
-                                              </button>
-                                        </div>
-                                        <div id="collapse-11" class="accordion-collapse collapse " aria-labelledby="collapse-item-11" data-bs-parent="#faqAccordion">
-                                            <div class="accordion-body">
-                                                <p class="faq-text">Yes, light to moderate trekking is possible after full recovery—usually after 6–9 months—with your doctor’s clearance.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="accordion-card style3  wow fadeInUp" data-wow-delay=".8s">
-                                        <div class="accordion-header" id="collapse-item-12">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-12" aria-expanded="false" aria-controls="collapse-10">7.⁠ ⁠Can I exercise or go to the gym post-surgery?
-
-                                              </button>
-                                        </div>
-                                        <div id="collapse-12" class="accordion-collapse collapse " aria-labelledby="collapse-item-12" data-bs-parent="#faqAccordion">
-                                            <div class="accordion-body">
-                                                <p class="faq-text">Yes, low-impact activities like walking, cycling, and swimming are encouraged after recovery; avoid high-impact sports.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                     <div class="accordion-card style3  wow fadeInUp" data-wow-delay=".8s">
-                                        <div class="accordion-header" id="collapse-item-13">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-13" aria-expanded="false" aria-controls="collapse-10">8.⁠ ⁠Can both knees be replaced at the same time?
-                                              </button>
-                                        </div>
-                                        <div id="collapse-13" class="accordion-collapse collapse " aria-labelledby="collapse-item-13" data-bs-parent="#faqAccordion">
-                                            <div class="accordion-body">
-                                                <p class="faq-text">Yes, if you’re medically fit, bilateral knee replacement can be done—but recovery is more intense.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                    </p>
                                 </div>
                             </div>
+                        </div>
+
+
+
+                        <div class="accordion-card style3  wow fadeInUp" data-wow-delay=".5s">
+                            <div class="accordion-header" id="collapse-item-8">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8">3.⁠
+                                    ⁠Is the surgery very painful?
+                                </button>
+                            </div>
+                            <div id="collapse-8" class="accordion-collapse collapse " aria-labelledby="collapse-item-8"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p class="faq-text">Pain is well-managed with modern anesthesia and medications;
+                                        most patients report significant relief post-surgery.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-card style3  wow fadeInUp" data-wow-delay=".7s">
+                            <div class="accordion-header" id="collapse-item-9">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9">4.⁠
+                                    ⁠How soon can I return to work or driving?</button>
+                            </div>
+                            <div id="collapse-9" class="accordion-collapse collapse " aria-labelledby="collapse-item-9"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p class="faq-text">Most people return to desk jobs in 4–6 weeks and driving in 4
+                                        weeks, depending on recovery progress.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-card style3  wow fadeInUp" data-wow-delay=".8s">
+                            <div class="accordion-header" id="collapse-item-10">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-10" aria-expanded="false" aria-controls="collapse-10">5.⁠
+                                    ⁠Will I need physiotherapy after the operation?
+                                </button>
+                            </div>
+                            <div id="collapse-10" class="accordion-collapse collapse "
+                                aria-labelledby="collapse-item-10" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p class="faq-text">Yes, physiotherapy is essential for restoring strength,
+                                        flexibility, and proper joint function post-surgery.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-card style3  wow fadeInUp" data-wow-delay=".8s">
+                            <div class="accordion-header" id="collapse-item-11">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-11" aria-expanded="false" aria-controls="collapse-10">6.⁠
+                                    ⁠Can I trek, hike, or travel after knee/joint replacement?
+                                </button>
+                            </div>
+                            <div id="collapse-11" class="accordion-collapse collapse "
+                                aria-labelledby="collapse-item-11" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p class="faq-text">Yes, light to moderate trekking is possible after full
+                                        recovery—usually after 6–9 months—with your doctor’s clearance.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-card style3  wow fadeInUp" data-wow-delay=".8s">
+                            <div class="accordion-header" id="collapse-item-12">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-12" aria-expanded="false" aria-controls="collapse-10">7.⁠
+                                    ⁠Can I exercise or go to the gym post-surgery?
+
+                                </button>
+                            </div>
+                            <div id="collapse-12" class="accordion-collapse collapse "
+                                aria-labelledby="collapse-item-12" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p class="faq-text">Yes, low-impact activities like walking, cycling, and swimming
+                                        are encouraged after recovery; avoid high-impact sports.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-card style3  wow fadeInUp" data-wow-delay=".8s">
+                            <div class="accordion-header" id="collapse-item-13">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-13" aria-expanded="false" aria-controls="collapse-10">8.⁠
+                                    ⁠Can both knees be replaced at the same time?
+                                </button>
+                            </div>
+                            <div id="collapse-13" class="accordion-collapse collapse "
+                                aria-labelledby="collapse-item-13" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p class="faq-text">Yes, if you’re medically fit, bilateral knee replacement can be
+                                        done—but recovery is more intense.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
 
@@ -1689,14 +1439,13 @@
                                             <div class="th-widget-about ms-md-5 ms-0">
                                                 <p class="footer-info"><i
                                                         class="fa-sharp fa-solid fa-phone text-white"></i>
-                                                    <span><a class="text-white" href="tel:+00123456789012"> 044 4000
-                                                            6000</a></span>
+                                                    <span><a class="text-white" href="tel:+914461116111">+91 44 6111 6111</a></span>
                                                 </p>
-                                                <p class="footer-info "><i
+                                                <!-- <p class="footer-info "><i
                                                         class="fa-sharp fa-solid fa-envelope text-white"></i><span>
                                                         <a class="text-white"
                                                             href="mailto:info@kauveryhospital.com">info@kauveryhospital.com</a></span>
-                                                </p>
+                                                </p> -->
                                                 <p class="footer-info text-white"><i
                                                         class="fas fa-map-marker-alt text-white"></i>2/473, 200
                                                     Feet Radial Rd, Ganapathy Nagar, Kovilambakkam, Chennai, Tamil Nadu
@@ -1758,7 +1507,7 @@
     </footer>
 
 
- 
+
     <!-- Scroll To Top -->
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
